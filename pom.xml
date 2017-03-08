@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
     <name>rc-public-githubmavenrepo-eclipse-java</name>
 
-    <description>This is a demo java eclipse project for using rc-git</description>
+    <description>This is a demo java eclipse project that is using a public github hosted java library using maven.</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,11 +28,11 @@
     </developers>
 
     <dependencies>
-<!--         <dependency>
-            <groupId>com.reversecoder.git</groupId>
-            <artifactId>rc-git</artifactId>
-            <version>1.0.0</version>
-        </dependency> -->
+        <dependency>
+            <groupId>com.reversecoder.samplelibrary.java</groupId>
+            <artifactId>rc-samplelibrary-java</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.maven.scm</groupId>
             <artifactId>maven-scm-provider-gitexe</artifactId>
@@ -40,10 +40,10 @@
         </dependency>
     </dependencies>
 
-<!--     <repositories>
+    <repositories>
         <repository>
-            <id>rc-public-githubmavenrepo-eclipse-java</id>
-            <url>https://raw.github.com/reversecoder/rc-public-githubmavenrepo-eclipse-java/snapshots</url>
+            <id>rc-samplelibrary-java</id>
+            <url>https://raw.github.com/reversecoder/rc-samplelibrary-java/snapshots</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
@@ -52,29 +52,18 @@
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
-    </repositories> -->
+    </repositories>
 
-<!--     <pluginRepositories>
-        <pluginRepository>
-            <id>rc-git</id>
-            <url>https://raw.github.com/reversecoder/rc-git/releases</url>
-        </pluginRepository>
-    </pluginRepositories> -->
-         <pluginRepositories>
+    <pluginRepositories>
         <pluginRepository>
             <id>synergian-repo</id>
             <url>https://raw.github.com/synergian/wagon-git/releases</url>
         </pluginRepository>
-    </pluginRepositories> 
+    </pluginRepositories>
 
     <build>
         <extensions>
-<!--              <extension>
-                <groupId>com.reversecoder.git</groupId>
-                <artifactId>rc-git</artifactId>
-                <version>1.0.0</version>
-            </extension> -->
-                       <extension>
+            <extension>
                 <groupId>ar.com.synergian</groupId>
                 <artifactId>wagon-git</artifactId>
                 <version>0.2.5</version>

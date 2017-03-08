@@ -3,12 +3,11 @@
   <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
   <classpathentry kind="output" path="target/classes"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+  <classpathentry kind="var" path="M2_REPO/com/reversecoder/samplelibrary/java/rc-samplelibrary-java/1.0.0-SNAPSHOT/rc-samplelibrary-java-1.0.0-SNAPSHOT.jar" sourcepath="M2_REPO/com/reversecoder/samplelibrary/java/rc-samplelibrary-java/1.0.0-SNAPSHOT/rc-samplelibrary-java-1.0.0-SNAPSHOT-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/maven/scm/maven-scm-provider-gitexe/1.9.2/maven-scm-provider-gitexe-1.9.2.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.2/commons-io-2.2.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/maven/scm/maven-scm-provider-git-commons/1.9.2/maven-scm-provider-git-commons-1.9.2.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/maven/scm/maven-scm-api/1.9.2/maven-scm-api-1.9.2.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/easymock/easymock/3.4/easymock-3.4.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/2.2/objenesis-2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar"/>
 </classpath>
