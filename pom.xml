@@ -42,31 +42,42 @@
 
 <!--     <repositories>
         <repository>
-            <id>rc-git</id>
-            <url>https://raw.github.com/reversecoder/rc-git/releases/</url>
+            <id>rc-public-githubmavenrepo-eclipse-java</id>
+            <url>https://raw.github.com/reversecoder/rc-public-githubmavenrepo-eclipse-java/snapshots</url>
             <releases>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
             </releases>
             <snapshots>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
     </repositories> -->
 
-    <pluginRepositories>
+<!--     <pluginRepositories>
         <pluginRepository>
             <id>rc-git</id>
-            <url>https://raw.github.com/reversecoder/rc-git/releases/</url>
+            <url>https://raw.github.com/reversecoder/rc-git/releases</url>
         </pluginRepository>
-    </pluginRepositories>
+    </pluginRepositories> -->
+         <pluginRepositories>
+        <pluginRepository>
+            <id>synergian-repo</id>
+            <url>https://raw.github.com/synergian/wagon-git/releases</url>
+        </pluginRepository>
+    </pluginRepositories> 
 
     <build>
         <extensions>
-            <extension>
+<!--              <extension>
                 <groupId>com.reversecoder.git</groupId>
                 <artifactId>rc-git</artifactId>
                 <version>1.0.0</version>
+            </extension> -->
+                       <extension>
+                <groupId>ar.com.synergian</groupId>
+                <artifactId>wagon-git</artifactId>
+                <version>0.2.5</version>
             </extension>
         </extensions>
         <finalName>${project.artifactId}-${project.version}</finalName>

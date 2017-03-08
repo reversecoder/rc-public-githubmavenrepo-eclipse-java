@@ -8,5 +8,7 @@
   <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/maven/scm/maven-scm-provider-git-commons/1.9.2/maven-scm-provider-git-commons-1.9.2.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/maven/scm/maven-scm-api/1.9.2/maven-scm-api-1.9.2.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/easymock/easymock/3.4/easymock-3.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/2.2/objenesis-2.2.jar"/>
 </classpath>
