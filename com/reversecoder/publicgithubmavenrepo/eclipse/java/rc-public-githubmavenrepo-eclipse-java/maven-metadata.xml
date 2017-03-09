@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.reversecoder.publicgithubmavenrepo.eclipse.java</groupId>
+  <artifactId>rc-public-githubmavenrepo-eclipse-java</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170309034305</lastUpdated>
+  </versioning>
+</metadata>
