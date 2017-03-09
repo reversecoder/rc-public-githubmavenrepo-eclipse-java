@@ -29,8 +29,8 @@
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20170308.110327-4</value>
-        <updated>20170308110327</updated>
+        <value>1.0.0-20170309.033751-5</value>
+        <updated>20170309033751</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>shaded</classifier>
