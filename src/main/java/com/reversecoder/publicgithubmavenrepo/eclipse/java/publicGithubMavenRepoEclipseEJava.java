@@ -1,6 +1,6 @@
-package com.reversecoder.public_githubmavenrepo_eclipse_java;
+package com.reversecoder.publicgithubmavenrepo.eclipse.java;
 
-import com.reversecoder.samplelibrary.java.PleaseUseMe;
+import com.reversecoder.samplelibrary.eclipse.java.PleaseUseMe;
 
 public class publicGithubMavenRepoEclipseEJava {
 

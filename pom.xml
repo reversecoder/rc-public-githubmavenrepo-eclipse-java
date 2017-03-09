@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.reversecoder.public_githubmavenrepo_eclipse_java</groupId>
+    <groupId>com.reversecoder.publicgithubmavenrepo.eclipse.java</groupId>
     <artifactId>rc-public-githubmavenrepo-eclipse-java</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -29,8 +29,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.reversecoder.samplelibrary.java</groupId>
-            <artifactId>rc-samplelibrary-java</artifactId>
+            <groupId>com.reversecoder.samplelibrary.eclipse.java</groupId>
+            <artifactId>rc-samplelibrary-eclipse-java</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -42,8 +42,8 @@
 
     <repositories>
         <repository>
-            <id>rc-samplelibrary-java</id>
-            <url>https://raw.github.com/reversecoder/rc-samplelibrary-java/snapshots</url>
+            <id>rc-samplelibrary-eclipse-java</id>
+            <url>https://raw.github.com/reversecoder/rc-samplelibrary-eclipse-java/snapshots</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
